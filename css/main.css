@@ -403,13 +403,48 @@ a:focus {
 	transition: filter 400ms ease;
 }
 .quick-links.flex {
+	width: 50%;
+	display: flex;
 	position: fixed;
 	top: 73.5%;
-	left: 50%;
+	left: 25%;
+	justify-content: space-around;
 }
 .options-list {
 	display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
 }
+.date-time {
+	animation: fadeIn ease 20s;
+-webkit-animation: fadeIn ease 20s;
+-moz-animation: fadeIn ease 20s;
+-o-animation: fadeIn ease 20s;
+-ms-animation: fadeIn ease 20s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
