@@ -402,3 +402,14 @@ a:focus {
 	z-index: 2;
 	transition: filter 400ms ease;
 }
+.quick-links.flex {
+	position: fixed;
+	top: 73.5%;
+	left: 50%;
+}
+.options-list {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
